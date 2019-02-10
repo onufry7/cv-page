@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+DirectoryIndex index.php
+ErrorDocument 404 /404
+RewriteEngine on
+RewriteRule zatrudnij-programiste-webowego index.php?show=zatrudnij  [L]
+RewriteRule kontakt-programista-html-css index.php?show=kontakt [L]
+RewriteRule oferta-tworzenie-stron-www index.php?show=oferta [L]
+RewriteRule cv-programista-html-css-php index.php?show=cv [L]
+RewriteRule burnejko-portfolio index.php?show=portfolio [L]
+RewriteRule kim-jestem index.php?show=kimjestem [L]
+RewriteRule witaj index.php?show=witaj [L]
+RewriteRule 404|podstrona.php index.php?show=404 [L]
