@@ -55,11 +55,11 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-download:before { content: '\e800'; font-size: 52px; margin-top: 12px; } /* '' */
-.icon-mail:before { content: '\e801'; font-size: 72px; margin-top: 12px; } /* '' */
-.icon-user:before { content: '\e802'; font-size: 72px; margin-top: 12px; } /* '' */
-.icon-briefcase:before { content: '\e803'; font-size: 72px; margin-top: 12px; } /* '' */
+.icon-download:before { content: '\e800'; font-size: 52px; margin-top: 15px; } /* '' */
+.icon-mail:before { content: '\e801'; font-size: 70px; margin-top: 15px; } /* '' */
+.icon-user:before { content: '\e802'; font-size: 70px; margin-top: 15px; } /* '' */
+.icon-briefcase:before { content: '\e803'; font-size: 70px; margin-top: 15px; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
-.icon-laptop:before { content: '\f109'; font-size: 72px; margin-top: 12px; } /* '' */
-.icon-graduation-cap:before { content: '\f19d'; font-size: 72px; margin-top: 12px; } /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; font-size: 72px; margin-top: 24px; } /* '' */
+.icon-laptop:before { content: '\f109'; font-size: 70px; margin-top: 15px; } /* '' */
+.icon-graduation-cap:before { content: '\f19d'; font-size: 70px; margin-top: 15px; } /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; font-size: 75px; margin-top: 24px; } /* '' */
