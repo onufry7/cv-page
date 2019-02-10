@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="fontello/css/fontello.css" />
 	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700%7cLato:400,700&subset=latin-ext" />
 	<script src="js/timer.js"></script>
-	<script async src="js/lightbox-plus-jquery.min.js"></script>
 	<title>Portfolio - Burnejko</title>
 </head>
 <body onload="czas();">
