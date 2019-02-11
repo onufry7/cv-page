@@ -64,13 +64,13 @@
 			</a>
 		</nav>
 
-		<aside class="cv tooltip tooltip2">
+		<aside class="tile6 tooltip tooltip2">
 			<a href="download/burnejko-cv.pdf" download="Burnejko-CV.pdf" class="medialink" data-tooltip="Pobierz PDF.">
 				CV<br /><i class="icon-download"></i>
 			</a>
 		</aside>
 
-		<aside class="li tooltip tooltip2">
+		<aside class="tile7 tooltip tooltip2">
 			<a href="http://www.linkedin.com/in/szymon-burnejko" target="_blank" class="medialink" data-tooltip="Mój profil.">
 				<i class="icon-linkedin-squared"></i>
 			</a>
