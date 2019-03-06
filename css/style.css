@@ -202,17 +202,20 @@ a.txtcv:hover
 	width: 420px;
 	text-align: center;
 	padding: 0 30px;
+	position: relative;
 }
 
 .imgportfolio
 {
-	padding: 5px 25px;
+	margin: 5px 25px;
+	padding: 0;
 	float: left;
 	border: 0px solid #fff;
 }
 
-.imgportfolio:hover
+.imgportfolio a:hover img
 {
+	
     animation: tremble 0.2s linear 0s infinite alternate none;
 }
 
@@ -233,7 +236,8 @@ a.txtcv:hover
 	position: relative;
 }
 
-.tooltip a:hover:before
+.tooltip a:hover:before,
+.tooltip3:hover:before
 {
 	content:attr(data-tooltip);
 	padding: 5px;
@@ -258,6 +262,22 @@ a.txtcv:hover
 	bottom: 88%;
 }
 
+
+.tooltip3:hover:before
+{
+	position: absolute;
+	width: 250px;
+	min-height: 60px;
+	bottom: 120px;
+	left: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #777;
+}
+
+
+
 .linkBlock
 {
 	text-align: center;
@@ -274,7 +294,6 @@ a.txtcv:hover
 .linkBlock a:hover
 {
 	border-bottom: 1px solid #fff;
-	animation: tremble 0.2s linear 0s infinite alternate none;
 	color: #fff;
 	margin-bottom: 4px;
 }
