@@ -17,7 +17,7 @@ class Podstrona
 	{
 		if(!isset($get) || empty($get))
 		{
-			$this->setSubpage($this->_allowed[0]);
+			$this->setSubpage($this->_allowed[1]);
 		} 
 		else if(in_array($get, $this->_allowed) && file_exists($this->_base.$get.'.html'))
 		{

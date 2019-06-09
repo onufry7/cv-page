@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego" />
-	<meta name="keywords" content="zamów stronę, burnejko portfolio, programista webowy, tworzenie www" />		
+	<meta name="keywords" content="zamów stronę, burnejko portfolio, programista webowy, tworzenie, burnejko cv" />		
 	<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/lightbox.css" />
 	<link rel="stylesheet" href="fontello/css/fontello.css" />
 	<link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700%7cLato:400,700&subset=latin-ext" />
 	<script src="js/timer.js"></script>
-	<title>Portfolio - Burnejko</title>
+	<title>Burnejko - CV</title>
 </head>
 <body onload="czas();">
 <div id="container">
